@@ -1,0 +1,22 @@
+{
+  "name": "api-rest-nodejs",
+  "version": "1.0.0",
+  "description": "api rest del master de javascript",
+  "license": "MIT",
+  "author": "Jonathan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
